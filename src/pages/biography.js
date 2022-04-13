@@ -3,14 +3,14 @@ import Layout from '../components/Layout/Layout';
 import PageTitle from '../components/PageTitle/PageTitle';
 
 // markup
-const IndexPage = () => {
+const BiographyPage = () => {
   return (
     <Layout>
       <div className='container'>
-        <PageTitle title='Home ' />
+        <PageTitle title='Biography' />
       </div>
     </Layout>
   );
 };
 
-export default IndexPage;
+export default BiographyPage;

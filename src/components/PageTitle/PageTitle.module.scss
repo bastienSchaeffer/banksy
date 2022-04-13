@@ -1,0 +1,16 @@
+@import '../../styles/variables.scss';
+
+.pageTitle {
+  color: red;
+  font-size: 56px;
+
+  @media (min-width: $breakpoint-tablet) {
+    color: blue;
+    font-size: 76px;
+  }
+
+  @media (min-width: $breakpoint-desktop) {
+    color: green;
+    font-size: 96px;
+  }
+}
